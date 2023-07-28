@@ -1,6 +1,5 @@
 pipeline {
-   
-        stage('Archving') { 
+           stage('Archving') { 
             steps {
                  archiveArtifacts '**/*.html, **/*.php'
             }
